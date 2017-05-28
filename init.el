@@ -49,6 +49,10 @@
 (require 'windsize)
 (windsize-default-keybindings)
 
+;; M-Arrow to skip blocks vertically
+(global-set-key (kbd "<M-up>") 'backward-paragraph)
+(global-set-key (kbd "<M-down>") 'forward-paragraph)
+
 ;; File auto-completion
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
