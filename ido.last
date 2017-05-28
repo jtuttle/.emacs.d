@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/jtuttle/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jtuttle/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jtuttle/.emacs.d/" (22826 19468 0 0) "network-security.data" "init.el" "elpa/" "custom.el" "auto-save-list/" ".git/" "../" "./")
+
+ ("/Users/jtuttle/" (22826 11463 0 0) "VirtualBox VMs/" "Public/" "Pictures/" "Parallels/" "Music/" "Movies/" "Materials/" "Library/" "Downloads/" "dotfiles/" "dotemacsdotd/" "dotemacs" "Documents/" "dev/" "Desktop/" "Applications/" ".zshrc" ".zlogin" ".yarnrc" ".wapi/" ".vscode/" ".voxelshop/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".ServiceHub/" ".rvm/" ".psql_history" ".pryrc" ".pry_history" ".profile~" ".profile" ".oracle_jre_usage/" ".nvm/" ".nuget/" ".npm/" ".netrc" ".local/" ".lesshst" ".lennasinception/" ".irb-history" ".IdentityService/" ".heroku/" ".gsutil/" ".gradle/" ".gitconfig~" ".gitconfig" ".gemrc" ".gem/" ".emacs_backups/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc~" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_history" ".android/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
