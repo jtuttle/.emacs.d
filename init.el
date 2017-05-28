@@ -1,27 +1,22 @@
-;; Remove splash screen
+;; Remove mouse interface early to avoid momentary display
+(when window-system
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1)
+  (tooltip-mode -1))
+
+;; Remove other UI non-essentials
 (setq inhibit-splash-screen t)
+(setq inhibit-startup-message t)
+(setq initial-scratch-message "")
 
 ;; Relegate backup files to a more convenient place
 (setq backup-directory-alist (quote ((".*" . "~/.emacs_backups/"))))
 
-;; Use space instead of tabs
-(setq-default indent-tabs-mode nil)
-
-;; shows column number next to line number
-(column-number-mode 1) 
-
-;; easier mark selection
-(transient-mark-mode 1) 
-
-;; Hide various UI elements
-(menu-bar-mode -1)
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
-
-;; Expand window on open
-(when window-system
-  (set-frame-position (selected-frame) 0 0)
-  (set-frame-size (selected-frame) 200 63))
+;; Specify file for config added by Custom
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(when (file-exists-p custom-file)
+  (load custom-file))
 
 ;; Additional package managers
 (require 'package)
@@ -31,6 +26,20 @@
                   ))
   (add-to-list 'package-archives source t))
 (package-initialize)
+
+;; Use space instead of tabs
+(setq-default indent-tabs-mode nil)
+
+;; Show column number next to line number
+(column-number-mode 1) 
+
+;; Easier mark selection
+(transient-mark-mode 1) 
+
+;; Expand window on open
+(when window-system
+  (set-frame-position (selected-frame) 0 0)
+  (set-frame-size (selected-frame) 200 63))
 
 ;; S-Arrow to focus window
 (require 'windmove)
