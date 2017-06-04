@@ -30,6 +30,9 @@
 ;; Use space instead of tabs
 (setq-default indent-tabs-mode nil)
 
+;; Show line numbers to left of file
+(global-linum-mode t)
+
 ;; Show column number next to line number
 (column-number-mode 1) 
 
@@ -57,3 +60,7 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (ido-mode 1)
+
+;; JSX mode
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
+(autoload 'jsx-mode "jsx-mode" "JSX mode" t)
