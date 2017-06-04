@@ -2,24 +2,160 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/" . "helpers/")
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/" . "scanners_v2/")
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/app/" . "lib/")
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/" . "app/")
+ ("/Users/jtuttle/dev/shoekicker/" . "sk_scan_lib/")
+ ("/Users/jtuttle/dev/share_tracker/config/" . "initializers/")
+ ("/Users/jtuttle/dev/small_url/spec/" . "requests/")
+ ("/Users/jtuttle/dev/small_url/app/controllers/api/" . "v1/")
+ ("/Users/jtuttle/dev/small_url/app/controllers/" . "api/")
+ ("/Users/jtuttle/.emacs.d/" . "auto-save-list/")
+ ("/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/" . "shares/")
+ ("/Users/jtuttle/dev/share_tracker/app/assets/javascripts/" . "components/")
+ ("/Users/jtuttle/dev/share_tracker/app/assets/" . "javascripts/")
+ ("/Users/jtuttle/dev/share_tracker/app/" . "assets/")
+ ("/Users/jtuttle/dev/share_tracker/" . "app/")
+ ("/Users/jtuttle/dev/small_url/lib/" . "exceptions/")
+ ("/Users/jtuttle/dev/small_url/config/" . "initializers/")
+ ("/Users/jtuttle/dev/small_url/app/models/" . "logical/")
+ ("/Users/jtuttle/dev/small_url/app/" . "models/")
+ ("/Users/jtuttle/dev/small_url/" . "app/")
+ ("/Users/jtuttle/dev/" . "shoekicker/")
  ("/Users/jtuttle/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/"
+ "/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/helpers/"
+ "/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/scanners_v2/"
+ "/Users/jtuttle/dev/shoekicker/shoekicker/"
+ "/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/scrapers/"
+ "/Users/jtuttle/dev/shoekicker/sk_scan_lib/"
+ "/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/shares/"
  "/Users/jtuttle/.emacs.d/"
+ "/Users/jtuttle/dev/share_tracker/config/initializers/"
+ "/Users/jtuttle/dev/small_url/app/models/logical/"
+ "/Users/jtuttle/dev/share_tracker/app/models/"
+ "/Users/jtuttle/dev/small_url/app/models/remote/"
+ "/Users/jtuttle/dev/small_url/app/controllers/"
+ "/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/login/"
+ "/Users/jtuttle/dev/small_url/spec/requests/"
+ "/Users/jtuttle/"
+ "/Users/jtuttle/dev/small_url/app/models/physical/"
+ "/Users/jtuttle/dev/small_url/"
+ "/Users/jtuttle/dev/small_url/config/"
+ "/Users/jtuttle/dev/share_tracker/app/controllers/"
+ "/Users/jtuttle/dev/small_url/config/initializers/"
+ "/Users/jtuttle/dev/small_url/app/controllers/api/v1/"
+ "/Users/jtuttle/dev/small_url/spec/"
+ "/Users/jtuttle/dev/small_url/spec/logical/"
+ "/Users/jtuttle/dev/small_url/lib/exceptions/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
+ "offer_data.rb"
+ "width_helper.rb"
+ "running_warehouse_scanner.rb"
+ "javascript_variables_helper.rb"
+ "Gemfile"
+ "scraper_javascript_tools.rb"
+ "sk_scan_lib.gemspec"
+ "sierratradingpost_scraper.rb"
+ "sierra_trading_post_scanner.rb"
+ "shares_page.js.jsx"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/jtuttle/.emacs.d/" (22826 19836 0 0) "network-security.data" "init.el" "ido.last" "elpa/" "custom.el" "auto-save-list/" ".git/" "../" "./")
+ ("/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/helpers/" (22835 13802 0 0) "width_helper.rb" "query_helper.rb" "node_list.rb" "js_json_parser.rb" "javascript_variables_helper.rb" "gender_helper.rb" "fetch_helper.rb" "bounds_helper.rb" "../" "./")
 
- ("/Users/jtuttle/" (22826 11463 0 0) "VirtualBox VMs/" "Public/" "Pictures/" "Parallels/" "Music/" "Movies/" "Materials/" "Library/" "Downloads/" "dotfiles/" "dotemacsdotd/" "dotemacs" "Documents/" "dev/" "Desktop/" "Applications/" ".zshrc" ".zlogin" ".yarnrc" ".wapi/" ".vscode/" ".voxelshop/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".ServiceHub/" ".rvm/" ".psql_history" ".pryrc" ".pry_history" ".profile~" ".profile" ".oracle_jre_usage/" ".nvm/" ".nuget/" ".npm/" ".netrc" ".local/" ".lesshst" ".lennasinception/" ".irb-history" ".IdentityService/" ".heroku/" ".gsutil/" ".gradle/" ".gitconfig~" ".gitconfig" ".gemrc" ".gem/" ".emacs_backups/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc~" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_history" ".android/" "../" "./")
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/scanners_v2/" (22835 14463 0 0) "zappos_scanner.rb" "sixpm_scanner.rb" "sierra_trading_post_scanner.rb" "serializer_status.rb" "serializer.rb" "serialize_offers.rb" "serialize_offer_data_sources.rb" "running_warehouse_scanner.rb" "road_runner_sports_scanner.rb" "retailer_runner.rb" "holabird_sports_scanner.rb" "citysports_scanner.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/" (22719 4203 0 0) "tester/" "retailer_scanner.rb" "offer_data_source.rb" "offer_data.rb" "index_scan.rb" "index.rb" "image_cache/" "helpers/" "errors/" "brand_scanner.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/" (22682 34667 0 0) "sk_scan_lib.rb" "sk_scan_lib/" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/sk_scan_lib/" (22835 13545 0 0) "sk_scan_lib.gemspec" "README.md" "lib/" "Gemfile.lock" "Gemfile" "bin/" ".yardoc/" ".ruby-version" ".ruby-gemset" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/scrapers/" (22835 13559 0 0) "zoot_scraper.rb" "zappos_scraper.rb" "vibram_scraper.rb" "vendor_scraper_base.rb" "underarmour_scraper.rb" "sportchalet_scraper.rb" "skechers_scraper.rb" "sixpm_scraper.rb" "sierratradingpost_scraper.rb" "shoe_not_carried_error.rb" "search_based_vendor_scraper_base.rb" "scraper_tools.rb" "scraper_javascript_tools.rb" "scraper_base.rb" "saucony_scraper.rb" "salomon_scraper.rb" "roman_numeral_family_process.rb" "rei_scraper.rb" "reebok_scraper.rb" "query_results.rb" "puma_scraper.rb" "pearlizumi_scraper.rb" "on_scraper.rb" "nordstrom_scraper.rb" "no_family_process.rb" "nike_scraper.rb" "newton_scraper.rb" "newbalance_scraper.rb" "mizuno_scraper.rb" "merrell_scraper.rb" "listing_not_valid_error.rb" "listing_index.rb" "listing_based_vendor_scraper_base.rb" "kellysrunningwarehouse_scraper.rb" "jackrabbit_scraper.rb" "inov8_scraper.rb" "hokaoneone_scraper.rb" "half_version_family_process.rb" "fuzzy_matcher.rb" "footlocker_scraper.rb" "finishline_scraper.rb" "family_process.rb" "eastbay_scraper.rb" "dsw_scraper.rb" "dickssportinggoods_scraper.rb" "capture_based_family_process.rb" "brooks_scraper.rb" "brand_scraper_base.rb" "auto_family_process.rb" "asics_scraper.rb" "amazon_scraper.rb" "altra_scraper.rb" "adidas_scraper.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/controllers/" (22831 26069 0 0) "url_controller.rb" "concerns/" "application_controller.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/models/remote/" (22831 26070 0 0) "google_safe_browsing_service.rb" "../" "./")
+
+ ("/Users/jtuttle/.emacs.d/" (22831 26110 0 0) "network-security.data" "init.el" "ido.last" "elpa/" "custom.el" "auto-save-list/" ".git/" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/shares/" (22831 26110 0 0) "short_urls_list.js.jsx" "short_url_item.js.jsx" "short_url_creator.js.jsx" "shares_page.js.jsx" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/" (22820 48581 0 0) "width_normalizer.rb" "vendor_shoe_pref_collector.rb" "vendor_shoe_name_matcher.rb" "util/" "user_attributer.rb" "unauthorized_error.rb" "tracker.rb" "threshold_flat_shipping.rb" "stale_offer_reaper.rb" "sitemap_builder.rb" "shoe_matcher/" "shoe_gender_finder.rb" "shoe_conflict_finder.rb" "shipping_rates.rb" "ses_responder.rb" "serializer.rb" "searcher.rb" "search_engine/" "search_cacher.rb" "script_behavior.rb" "scrapers/" "scraper.rb" "scanners_v2/" "sandbox_manager.rb" "review_engine/" "retailer_library.rb" "retailer_info.rb" "recommendation_engine/" "raffle_runner.rb" "quickbooks_wrapper.rb" "quickbooks_customer_updater.rb" "quickbooks_auth_service.rb" "query_builder.rb" "purchase_collector.rb" "production_tunneler.rb" "price_alert_sender.rb" "price_alert_manager.rb" "price_alert_email_exporter.rb" "price_alert_checker.rb" "performance_helper.rb" "partner_reports/" "partner_report.rb" "object_janitor/" "log_helper.rb" "local_image_cache.rb" "librato_stats.rb" "lazy_scraper_rotator.rb" "js_json_parser.rb" "job_system/" "hash_options.rb" "groove_ticket_sender.rb" "google_analytics.rb" "gender.rb" "free_shipping.rb" "financial_import/" "file_lock.rb" "feature_library.rb" "feature.rb" "family_conflict_finder.rb" "family_assigner.rb" "decacontent/" "db_janitor.rb" "csv_helper.rb" "conversion_cache.rb" "contest_automater.rb" "color_mapper.rb" "campaign_report_importer.rb" "campaign_report_estimator.rb" "brand_library.rb" "brand_info.rb" "blog_top10_importer.rb" "aws_toolkit/" "authorization_exception.rb" "amplitude_api.rb" "alias_cleaner.rb" "affiliate_linker.rb" "affiliate_info.rb" "affiliate_drivers/" "ad_engine/" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/app/" (22820 48581 0 0) "views/" "scripts/" "models/" "mailers/" "lib/" "helpers/" "data/" "controllers/" "assets/" "api/" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/shoekicker/" (22825 43980 0 0) "vendor/" "tmp/" "test/" "secure/" "README.md" "Rakefile" "public/" "Procfile.dev" "precompiled_assets.zip" "package.json" "node_modules/" "log/" "lib/" "import.csv" "Gemfile.lock" "Gemfile" "fixtures/" "doc/" "deploy/" "db/" "config_ucss.js" "config.ru" "config/" "client/" "bower.json" "blog/" "bin/" "app/" "add_racing_shoes.rb" ".scss-lint.yml" ".scandev" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".nvmrc" ".gitignore" ".git/" ".eslintrc" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/models/" (22817 59313 0 0) "remote/" "physical/" "concerns/" "application_record.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/login/" (22821 241 0 0) "login_page.js.jsx" "create_user_page.js.jsx" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/spec/requests/" (22830 15659 0 0) "url_spec.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/spec/" (22830 14900 0 0) "spec_helper.rb" "requests/" "rails_helper.rb" "logical/" "factories.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/models/logical/" (22830 14581 0 0) "uuid.rb" "url_validator.rb" "url_token_encoder.rb" "url_encryptor.rb" "url_creator.rb" "../" "./")
+
+ ("/Users/jtuttle/" (22830 14238 0 0) "VirtualBox VMs/" "Public/" "Pictures/" "Parallels/" "Music/" "Movies/" "Materials/" "Library/" "Downloads/" "dotfiles/" "dotemacsdotd/" "dotemacs" "Documents/" "dev/" "Desktop/" "Applications/" ".zshrc" ".zlogin" ".yarnrc" ".wapi/" ".vscode/" ".voxelshop/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".ServiceHub/" ".rvm/" ".psql_history" ".pryrc" ".pry_history" ".profile~" ".profile" ".oracle_jre_usage/" ".nvm/" ".nuget/" ".npm/" ".netrc" ".local/" ".lesshst" ".lennasinception/" ".irb-history" ".IdentityService/" ".heroku/" ".gsutil/" ".gradle/" ".gitconfig~" ".gitconfig" ".gemrc" ".gem/" ".emacs~" ".emacs_backups/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc~" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_history" ".android/" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/" (22830 13665 0 0) "vendor/" "tmp/" "test/" "spec/" "README.md" "Rakefile" "public/" "package.json" "MIT-LICENSE" "log/" "lib/" "Gemfile.lock" "Gemfile" "db/" "config.ru" "config/" "bin/" "app/" ".ruby-version" ".ruby-gemset" ".rspec" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/config/" (22830 13240 0 0) "secrets.yml" "routes.rb" "puma.rb" "locales/" "initializers/" "environments/" "environment.rb" "database.yml" "cable.yml" "boot.rb" "application.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/controllers/" (22830 12807 0 0) "users_controller.rb" "shares_controller.rb" "sessions_controller.rb" "restricted_access_controller.rb" "concerns/" "application_controller.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/config/initializers/" (22830 12421 0 0) "wrap_parameters.rb" "url_shortener_service.rb" "react_server_rendering.rb" "mime_types.rb" "inflections.rb" "filter_parameter_logging.rb" "cookies_serializer.rb" "backtrace_silencers.rb" "assets.rb" "application_controller_renderer.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/controllers/api/v1/" (22830 11911 0 0) "url_controller.rb" ".#url_controller.rb" "#url_controller.rb#" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/config/" (22817 61467 0 0) "secrets.yml" "routes.rb" "puma.rb" "locales/" "initializers/" "environments/" "environment.rb" "database.yml" "cable.yml" "boot.rb" "application.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/controllers/api/" (22830 10657 0 0) "v1/" "../" "./")
+
+ ("/Users/jtuttle/.wapi/" (22679 48896 0 0) "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/spec/logical/" (22830 7267 0 0) "url_creator_spec.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/models/physical/" (22830 6208 0 0) "small_url.rb" "owner.rb" "../" "./")
+
+ ("/Users/jtuttle/.emacs.d/auto-save-list/" (22830 5273 0 0) "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/lib/exceptions/" (22830 886 0 0) "url_disabled_error.rb" "url_creation_failed_error.rb" "invalid_url_token_error.rb" "invalid_url_identifier_error.rb" "invalid_url_error.rb" "invalid_owner_identifier_error.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/lib/" (22815 17828 0 0) "tasks/" "assets/" "../" "./")
+
+ ("/Users/jtuttle/dev/shoekicker/" (22820 48169 0 0) "sk_scan_lib/" "shoekicker/" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/" (22817 56675 0 0) "shares/" "login/" ".gitkeep" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/assets/javascripts/" (22816 59923 0 0) "server_rendering.js" "promise.js" "components.js" "components/" "channels/" "cable.js" "application.js" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/assets/" (22815 17828 0 0) "stylesheets/" "javascripts/" "images/" "config/" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/app/" (22815 17828 0 0) "views/" "models/" "mailers/" "jobs/" "helpers/" "controllers/" "channels/" "assets/" "../" "./")
+
+ ("/Users/jtuttle/dev/share_tracker/" (22821 826 0 0) "vendor/" "tmp/" "test/" "README.md" "Rakefile" "public/" "package.json" "MIT-LICENSE" "log/" "lib/" "Gemfile.lock" "Gemfile" "db/" "config.ru" "config/" "bin/" "app/" ".ruby-version" ".ruby-gemset" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/lib/" (22829 44509 0 0) "tasks/" "exceptions/" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/config/initializers/" (22820 62536 0 0) "wrap_parameters.rb" "mime_types.rb" "inflections.rb" "filter_parameter_logging.rb" "cookies_serializer.rb" "backtrace_silencers.rb" "assets.rb" "application_controller_renderer.rb" "apipie.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/models/" (22828 56096 0 0) "remote/" "physical/" "logical/" "concerns/" "application_record.rb" "../" "./")
+
+ ("/Users/jtuttle/dev/small_url/app/" (22816 37189 0 0) "views/" "models/" "mailers/" "jobs/" "controllers/" "channels/" "../" "./")
+
+ ("/Users/jtuttle/dev/" (22820 40270 0 0) "woodpenny/" "url_shrinker/" "tutorials/" "tools/" "small_url/" "sillygoats/" "shoekicker/" "share_tracker/" "sandbox/" "monogame_extended_samples/" "monogame_extended/" "monogame/" "merchant/" "libv8/" "cat_snip/" "atma/" "artemis/" ".DS_Store" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
