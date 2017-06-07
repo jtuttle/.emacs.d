@@ -2,6 +2,10 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/jtuttle/work/freemyapps/app/models/process/" . "batch_processing/")
+ ("/Users/jtuttle/work/freemyapps/app/models/" . "process/")
+ ("/Users/jtuttle/work/freemyapps/app/" . "models/")
+ ("/Users/jtuttle/work/freemyapps/" . "app/")
  ("/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/" . "helpers/")
  ("/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/" . "scanners_v2/")
  ("/Users/jtuttle/dev/shoekicker/shoekicker/app/" . "lib/")
@@ -28,6 +32,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/jtuttle/.emacs.d/"
+ "/Users/jtuttle/"
+ "/Users/jtuttle/work/freemyapps/config/settings/"
+ "/Users/jtuttle/work/freemyapps/config/"
+ "/Users/jtuttle/work/freemyapps/app/models/process/"
+ "/Users/jtuttle/work/freemyapps/app/models/process/batch_processing/"
  "/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/"
  "/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/helpers/"
  "/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/scanners_v2/"
@@ -35,7 +45,6 @@
  "/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/scrapers/"
  "/Users/jtuttle/dev/shoekicker/sk_scan_lib/"
  "/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/shares/"
- "/Users/jtuttle/.emacs.d/"
  "/Users/jtuttle/dev/share_tracker/config/initializers/"
  "/Users/jtuttle/dev/small_url/app/models/logical/"
  "/Users/jtuttle/dev/share_tracker/app/models/"
@@ -43,7 +52,6 @@
  "/Users/jtuttle/dev/small_url/app/controllers/"
  "/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/login/"
  "/Users/jtuttle/dev/small_url/spec/requests/"
- "/Users/jtuttle/"
  "/Users/jtuttle/dev/small_url/app/models/physical/"
  "/Users/jtuttle/dev/small_url/"
  "/Users/jtuttle/dev/small_url/config/"
@@ -57,20 +65,40 @@
 
 ;; ----- ido-work-file-list -----
 (
- "offer_data.rb"
- "width_helper.rb"
- "running_warehouse_scanner.rb"
- "javascript_variables_helper.rb"
- "Gemfile"
- "scraper_javascript_tools.rb"
- "sk_scan_lib.gemspec"
- "sierratradingpost_scraper.rb"
- "sierra_trading_post_scanner.rb"
- "shares_page.js.jsx"
+ "init.el"
+ "dotemacs"
+ "production.yml"
+ "test.yml"
+ "staging.yml"
+ "development.yml"
+ "settings.yml"
+ "rotate_gift_code_encryption_key.rb"
+ "archive_and_delete_old_partitions.rb"
+ "gift_card_codes_uploader.rb"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/jtuttle/.emacs.d/" (22839 1232 0 0) "network-security.data" "init.el" "ido.last" "elpa/" "custom.el" "auto-save-list/" ".git/" "../" "./")
+
+ ("/Users/jtuttle/work/freemyapps/app/models/process/" (22840 4905 0 0) "user_reengagement/" "user_device/" "update_campaign_credit_value_multiple.rb" "third_party_offers/" "third_party_campaigns/" "third_party_campaign_metrics.rb" "third_party_campaign_fetch/" "third_party/" "seed_languages.rb" "rotate_gift_code_encryption_key.rb" "referral_tracking/" "record_conversion_rates.rb" "re_record_conversion_processor_clicks.rb" "push/" "mail_chimp_merge_fields_results.rb" "mail_chimp_merge_fields.rb" "generate_uuid_for_gifts_table.rb" "fraud_query/" "fraud_detection/" "downstream_partners/" "df_user_device_idfa_match_recorder_v2.rb" "df_user_device_idfa_match_recorder.rb" "device_model_statistics_updater.rb" "database/" "data_migration/" "data_dog_metrics.rb" "credit_expiration_inactive_devices.rb" "credit_expiration_first_day_only_visiting_devices.rb" "credit_expiration.rb" "credit_delay_status.rb" "create_missing_fms_campaigns.rb" "core_services/" "conversion_recorder.rb" "conversion_rate_alerting.rb" "continuous_script.rb" "command_script.rb" "clean_up_erroneous_email_enrollments.rb" "campaign_metrics.rb" "batch_script.rb" "batch_processing/" "async_process.rb" "archive_and_delete_old_partitions.rb" "analytics/" "add_timed_offer_configuration.rb" ".#archive_and_delete_old_partitions.rb" "#archive_and_delete_old_partitions.rb#" "../" "./")
+
+ ("/Users/jtuttle/work/freemyapps/config/settings/" (22840 4980 0 0) "test.yml" "staging.yml" "production.yml" "development.yml" "../" "./")
+
+ ("/Users/jtuttle/work/freemyapps/config/" (22833 51782 0 0) "vanity.yml" "supervisor.conf" "sidekiq_cron_jobs.yml" "sidekiq.yml" "settings.yml" "settings/" "routes.rb" "newrelic.yml" "locales/" "initializers/" "environments/" "environment.rb" "database.yml.sample" "database.yml" "database-tddium.yml.sample" "database-staging.yml" "database-staging-sdp-testing.yml" "database-production.yml" "certificates/" "boot.rb" "application.rb" "../" "./")
+
+ ("/Users/jtuttle/work/freemyapps/" (22840 3969 0 0) "zeus.json" "vendor/" "tmp/" "test/" "sql/" "spec/" "solano.yml" "script/" "Rakefile" "public/" "log/" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "dump.rdb" "doc/" "db/" "custom_plan.rb" "config.ru" "config/" "ci/" "app/" ".zeus.sock" ".workflow-tools.yml" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec.sample" ".rspec" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jtuttle/work/freemyapps/app/models/process/batch_processing/" (22837 43838 0 0) "unblacklist_user_devices.rb" "segment_members.rb" "gift_card_codes_uploader.rb" "blacklist_user_devices.rb" "base.rb" ".#gift_card_codes_uploader.rb" "#gift_card_codes_uploader.rb#" "../" "./")
+
+ ("/Users/jtuttle/work/freemyapps/app/models/" (22414 34804 0 0) "view/" "utility/" "subscription/" "remote/" "process/" "physical/" "logical/" "auth/" "../" "./")
+
+ ("/Users/jtuttle/work/freemyapps/app/" (22414 34804 0 0) "views/" "validators/" "models/" "mailers/" "helpers/" "exceptions/" "datatables/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/jtuttle/work/" (22783 24813 0 0) "workflow-tools/" "scorpio/" "sample_tango_order_responses.txt" "releaser/" "ops-tools/" "google-play-services_lib/" "freemyapps-conversion-processor/" "freemyapps-conversion-api/" "freemyapps-android-app-apks/" "freemyapps-android-app/" "freemyapps/" "facebook-android-sdk-3.6.0/" "facebook-android-sdk-3.23.1/" "enrollment_spec.rb" "dev/" "core-services/" "chef-deploy/" "cf-stager/" "callback_spec.rb" "callback.rb" "appstrobot/" "android-support-v4-fma.jar" "android-support-v4-fb.jar" "2048/" ".DS_Store" ".classpath" "../" "./")
+
+ ("/Users/jtuttle/" (22839 1171 0 0) "work/" "snapshots/" "Sites/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "files.txt" "facebook-android-sdks/" "elisp/" "Dropbox/" "Downloads/" "dotemacsdotd/" "dotemacs" "Documents/" "dev/" "Desktop/" "Applications/" "android-sdks/" ".zshrc" ".zprofile" ".Xauthority" ".workflow-tools/" ".wireshark-etc/" ".wireshark/" ".wapi/" ".viminfo" ".travis/" ".Trash/" ".subversion/" ".stager/" ".ssh/" ".sqlite_history" ".sh_history" ".ServiceHub/" ".sbt/" ".rvm/" ".ruby-uuid" ".rnd" ".rdebugrc" ".rdebug_hist" ".python-eggs/" ".pvrep.yml" ".psql_history" ".pryrc" ".pry_history" ".profile~" ".profile" ".pgpass-bkup" ".pgpass" ".papertrail.yml" ".oracle_jre_usage/" ".nuget/" ".npm/" ".node_repl_history" ".morena/" ".mono/" ".local/" ".lesshst" ".ivy2/" ".irb-history" ".io_history" ".inputrc" ".ido.last" ".idlwave/" ".IdentityService/" ".guard_history" ".gitignore" ".gitconfig" ".git-completion.sh" ".gemrc" ".gem/" ".fontconfig/" ".fma-tools/" ".fiksu/" ".emacs_backups/" ".emacs.d/" ".DS_Store" ".dropbox/" ".dogwatch/" ".cups/" ".config/" ".coffee_history" ".chef/" ".CFUserTextEncoding" ".capgroup.rb" ".capgroup/" ".cache_staging_tables/" ".cache/" ".byebug_hist" ".bundler/" ".bundle/" ".bash_profile" ".bash_history" ".aws/" ".android/" "#.profile#" "../" "./")
+
  ("/Users/jtuttle/dev/shoekicker/sk_scan_lib/lib/sk_scan_lib/helpers/" (22835 13802 0 0) "width_helper.rb" "query_helper.rb" "node_list.rb" "js_json_parser.rb" "javascript_variables_helper.rb" "gender_helper.rb" "fetch_helper.rb" "bounds_helper.rb" "../" "./")
 
  ("/Users/jtuttle/dev/shoekicker/shoekicker/app/lib/scanners_v2/" (22835 14463 0 0) "zappos_scanner.rb" "sixpm_scanner.rb" "sierra_trading_post_scanner.rb" "serializer_status.rb" "serializer.rb" "serialize_offers.rb" "serialize_offer_data_sources.rb" "running_warehouse_scanner.rb" "road_runner_sports_scanner.rb" "retailer_runner.rb" "holabird_sports_scanner.rb" "citysports_scanner.rb" "../" "./")
@@ -86,8 +114,6 @@
  ("/Users/jtuttle/dev/small_url/app/controllers/" (22831 26069 0 0) "url_controller.rb" "concerns/" "application_controller.rb" "../" "./")
 
  ("/Users/jtuttle/dev/small_url/app/models/remote/" (22831 26070 0 0) "google_safe_browsing_service.rb" "../" "./")
-
- ("/Users/jtuttle/.emacs.d/" (22831 26110 0 0) "network-security.data" "init.el" "ido.last" "elpa/" "custom.el" "auto-save-list/" ".git/" "../" "./")
 
  ("/Users/jtuttle/dev/share_tracker/app/assets/javascripts/components/shares/" (22831 26110 0 0) "short_urls_list.js.jsx" "short_url_item.js.jsx" "short_url_creator.js.jsx" "shares_page.js.jsx" "../" "./")
 
@@ -106,8 +132,6 @@
  ("/Users/jtuttle/dev/small_url/spec/" (22830 14900 0 0) "spec_helper.rb" "requests/" "rails_helper.rb" "logical/" "factories.rb" "../" "./")
 
  ("/Users/jtuttle/dev/small_url/app/models/logical/" (22830 14581 0 0) "uuid.rb" "url_validator.rb" "url_token_encoder.rb" "url_encryptor.rb" "url_creator.rb" "../" "./")
-
- ("/Users/jtuttle/" (22830 14238 0 0) "VirtualBox VMs/" "Public/" "Pictures/" "Parallels/" "Music/" "Movies/" "Materials/" "Library/" "Downloads/" "dotfiles/" "dotemacsdotd/" "dotemacs" "Documents/" "dev/" "Desktop/" "Applications/" ".zshrc" ".zlogin" ".yarnrc" ".wapi/" ".vscode/" ".voxelshop/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".ServiceHub/" ".rvm/" ".psql_history" ".pryrc" ".pry_history" ".profile~" ".profile" ".oracle_jre_usage/" ".nvm/" ".nuget/" ".npm/" ".netrc" ".local/" ".lesshst" ".lennasinception/" ".irb-history" ".IdentityService/" ".heroku/" ".gsutil/" ".gradle/" ".gitconfig~" ".gitconfig" ".gemrc" ".gem/" ".emacs~" ".emacs_backups/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc~" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_history" ".android/" "../" "./")
 
  ("/Users/jtuttle/dev/small_url/" (22830 13665 0 0) "vendor/" "tmp/" "test/" "spec/" "README.md" "Rakefile" "public/" "package.json" "MIT-LICENSE" "log/" "lib/" "Gemfile.lock" "Gemfile" "db/" "config.ru" "config/" "bin/" "app/" ".ruby-version" ".ruby-gemset" ".rspec" ".gitignore" ".git/" "../" "./")
 
